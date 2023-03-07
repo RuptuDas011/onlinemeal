@@ -1,0 +1,267 @@
+.navbar{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    opacity: 200px;
+    z-index: inherit;
+    top: 0px;
+    left: 0px;
+
+}
+
+.navbar ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+
+
+
+}
+
+.logo{
+    position: relative;
+    display:block;
+    justify-content: start;
+    align-items:flex-start;
+    background-color: antiquewhite;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+
+}
+
+.navbar li{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px ;
+    font-size: 1.2rem;
+}
+
+.navbar li:hover{
+
+    background-color: white
+    border: 2px;
+     border-radius:  12px;
+     cursor: pointer;
+
+
+}
+
+
+/* Section*/
+.sect{
+    display: flex;
+    flex-direction: column;
+    background: url(img/back3.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+    
+    
+    
+}
+
+.h1{
+    font-size: 5.8rem;
+    font-style: italic;
+    color:whitesmoke;
+}
+
+.para{
+
+    text-align: center;
+    color:#c29ac7;
+    font-size: 1.5rem;
+
+
+
+}
+
+.btn{
+    font-size: 3.8rem;
+    border: 50px;
+    border-radius: 10px;
+    color:  #8c4141;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+
+}
+
+.btn:hover{
+    background-color: #977d7d;
+    
+}
+
+
+
+
+.serve{
+    text-align: center;
+    color:  whitesmoke;
+    font-size: 2.3rem;
+    background-color: rgb(57, 55, 55);
+
+}
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(57, 55, 55);
+}
+
+
+.box{
+    display: block;
+    border: 2px solid  #d94949;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #e2dfdb;
+    font-family:  'Nunito', sans-serif;
+    align-items: baseline;
+    color: black;
+
+    
+
+}
+
+.box:hover{
+   
+    transform:scale(0.9)
+}
+
+
+.btn1{
+
+
+
+    
+    
+    color: #d94949;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size:20px;
+    margin-left: 50%;
+
+
+
+}
+
+.btn1:hover{
+    background-color: #8c4141;
+
+}
+
+.box1{
+       margin-left: 5px;
+}
+
+
+.clients{
+    background: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.client{
+    text-align: center;
+    color:  #d94949;
+    font-size: 2.3rem;
+
+
+
+
+}
+
+
+
+
+
+.icon{
+    display: flex;   
+    justify-content: space-between;
+
+    
+
+}
+
+.icon:hover{
+    transform:scale(0.9);
+    transform: rotate3d(45deg);
+    
+}
+
+
+
+
+.contact{
+    background: url(img/cont.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.con{
+    text-align: center;
+    color:  white;
+    font-size: 2.3rem;
+}
+
+.form{
+
+    
+
+    border:12px solid  #2b2828;
+    border-radius: 20px;
+    margin: 2px 2px ;
+    padding: 20px 20px ;
+    width: 22%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #c1d400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.pf{
+    color: #c29ac7;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
